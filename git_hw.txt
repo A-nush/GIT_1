@@ -1,0 +1,260 @@
+JSON === https://github.com/A-nush/JSON
+ 1. Создать внешний репозиторий c названием JSON ===
+ Repositories--New--Repository name JSON (Public--Add a Readme file)--Create repository--copy code  
+ 
+ 2. Клонировать репозиторий JSON на локальный компьютер === git clone https://github.com/A-nush/JSON.git
+  
+ 3. Внутри локального JSON создать файл “new.json” === cd JSON -- vim new.json
+ 
+ 4. Добавить файл под гит === git add new.json
+
+ 5. Закоммитить файл === git commit -m "add new.json file"
+ 
+ 6. Отправить файл на внешний GitHub репозиторий === git push 
+ 
+ 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON === vim new.json
+ {
+	"name": "Anush",
+	"age": "40",
+	"my pet": {
+		"cat": "Jordan (name)"
+	},
+	"desired salary": "1000$"
+}
+ 
+ 8. Отправить изменения на внешний репозиторий === git commit -am "change file new.json"
+                                               ===  git push
+ 
+ 9. Создать файл preferences.json === vim preferences.json
+ 
+ 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON === vim preferences.json
+ {
+	"favorite movie": "The Gentlemen",
+	"favorite TV series": "Sherlock",
+	"favorite food": "Cheese",
+	"country": "Ireland"
+}
+
+ 11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON === vim skills.json
+ {
+	"Тестирование API": "Postman",
+	"Снифинг http web трафика": "Charles",
+	"ADB": "управление андройд девайсами",
+	"Настройка прокси и vpn": "iOS и Android",
+	"Основы SQL": "Create, Delete, Drop, Insert Into",
+	"Нагрузочное тестирование": "Jmeter"
+}
+
+ 12. Отправить сразу 2 файла на внешний репозиторий 
+ === git add preferences.json skills.json 
+ === git commit -m "add 2 files"
+ === git push
+ 
+ 13. На веб интерфейсе создать файл bug_report.json
+ === add file bug_report.json---commit directly to the main brunch---commit new file
+ 
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе 
+ === click bug_report.json---edit this file---make changes---commit changes
+ 
+ 
+ 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON
+ {
+	"Sammary": "Optimize: Sliders of brightness, contrast are disabled",
+	"Priority": "Major",
+	"Component": "Kimba",
+	"Enviroment": {
+		"Oracle VM VirtualBox": "6.1",
+		"OS": "Windows XP"
+	},
+	"Description": {
+		"1": "Open the app.",
+		"2": "Double click on the picture.",
+		"3": "Move the sliders left and right adjust the brighness, contrast."
+	},
+	"Actual result": "Sliders of brighness and contrast are disabled.",
+	"Expected result": "Sliders are adjust the brighness and contrast"
+}
+ 
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+ === main---open file bug_report.json---go to file---edit---баг репорт---commit changes
+ 
+ 17. Синхронизировать внешний и локальный репозиторий JSON
+ === git pull
+
+
+
+XML === https://github.com/A-nush/XML
+
+ 1. Создать внешний репозиторий c названием XML ===
+ === Repositories--New--Repository name XML (Public--Add a Readme file)--Create repository--copy code
+ 
+ 2. Клонировать репозиторий XML на локальный компьютер===
+ === git clone https://github.com/A-nush/XML.git
+ 
+ 3. Внутри локального XML создать файл “new.xml”
+ === cd XML
+ === vim new.xml
+ 
+ 4. Добавить файл под гит === git add new.xml
+ 
+ 5. Закоммитить файл === git commit -m "add new.xml file"
+ 
+ 6. Отправить файл на внешний GitHub репозиторий === git push
+ 
+ 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML === vim new.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<name>Anush</name>
+<age>40</age> 
+<my_pet>cat</my_pet>
+<desired_salary>1000$</desired_salary>
+</info>
+ 
+ 8. Отправить изменения на внешний репозиторий
+ === git commit -am "change file new.xml"
+ === git push
+ 
+ 9. Создать файл preferences.xml === vim preferences.xml
+ 
+ 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML
+ === vim preferences.xml
+ <?xml version="1.0" encoding="UTF-8"?>
+<info>
+<favorite_movie>The Gentlemen</favorite_movie>
+<favorite_TV_series>Sherlock</favorite_TV_series> 
+<favorite_food>Cheese</favorite_food>
+<country>Ireland</country>
+</info>
+
+ 11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ === vim skills.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+<Тестирование_API>Postman</Тестирование_API>
+<Снифинг_web_трафика>Charles</Снифинг_web_трафика> 
+<ADB>Управление андройд девайсами</ADB>
+<Настройка_прокси_vpn>iOS_Android</Настройка_прокси_vpn>
+<Основы_SQL>Create_Delete_Drop_Insert Into</Основы_SQL>
+<Нагрузочное_тестирование>Jmeter</Нагрузочное_тестирование>
+</skills>
+
+ 12. Сделать коммит в одну строку
+ === git add . && git commit -m "add 2 files"
+ 
+ 13. Отправить сразу 2 файла на внешний репозиторий === git push
+ 
+ 14. На веб интерфейсе создать файл bug_report.xml
+ === add file bug_report.xml---commit directly to the main brunch---commit new file
+ 
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+ === click bug_report.xml---edit this file---make changes---commit changes
+ 
+ 16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
+ ===
+<?xml version="1.0" encoding="UTF-8"?>
+<bug>
+<Sammary>Optimize: Sliders of brightness, contrast are disabled</Sammary>
+<Priority>Major</Priority> 
+<Component>Kimba</Component>
+<Enviroment>
+<field name="Enviroment">Oracle VM VirtualBox </field>
+<field name="Enviroment">OS Windows XP </field>
+</Enviroment>
+<Description>
+<field name="1">Open the app</field>
+<field name="2">Double click on the picture</field>
+<field name="3">Move the sliders left and right adjust the brighness, contrast</field>
+</Description>
+<Actual_result>Sliders of brighness and contrast are disabled</Actual_result>
+<Expected_result>Sliders are adjust the brighness and contrast</Expected_result>
+</bug>
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ === main---open file bug_report.xml---go to file---edit---баг репорт---commit changes
+ 
+ 18. Синхронизировать внешний и локальный репозиторий XML === git pull
+ 
+ 
+ TXT === https://github.com/A-nush/TXT
+ 
+ 1. Создать внешний репозиторий c названием TXT
+ === Repositories--New--Repository name TXT (Public--Add a Readme file)--Create repository--copy code
+ 
+ 2. Клонировать репозиторий TXT на локальный компьютер
+ === git clone https://github.com/A-nush/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”
+ === cd TXT
+ === vim new.txt
+ 
+ 4. Добавить файл под гит
+ === git add new.txt
+ 
+ 5. Закоммитить файл
+ === git commit -m "add new.txt file"
+ 
+ 6. Отправить файл на внешний GitHub репозиторий
+ === git push
+ 
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT!
+ === vim new.txt
+ === name: Anush
+     age: 40
+     my pet: cat Jordan
+
+ 8. Отправить изменения на внешний репозиторий
+ === git commit -am "change file new.txt"
+ 
+ 9. Создать файл preferences.txt
+ === vim preferences.txt
+ 
+ 10. В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT
+ === vim preferences.txt
+     favorite movie: The Gentlemen
+     favorite TV series: Sherlock
+     favorite food: Cheese
+     country: Ireland
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+ === vim skills.txt
+ === Тестирование API: Postman
+     Снифинг http web трафика: Charles
+     ADB: Управление андроид девайсами
+     Настройка прокси и vpn: iOS и Android
+     Основы SQL: Create, Delete, Drop, Insert Into
+     Нагрузочное тестирование: Jmeter
+
+ 12. Сделать коммит в одну строку
+ === git add . && git commit -m "add 2 files"
+ 
+ 13. Отправить сразу 2 файла на внешний репозиторий
+ === git push
+ 
+ 14. На веб интерфейсе создать файл bug_report.txt
+ === add file bug_report.txt---commit directly to the main brunch---commit new file
+ 
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+ === click bug_report.txt---edit this file---make changes---commit changes
+ 
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
+ ===
+ Sammary: Optimize: Sliders of brightness, contrast are disabled
+ Priority: Major
+ Component: Kimba
+ Enviroment: Oracle VM VirtualBox 6.1 (macOS)
+		        OS Windows XP
+Description:
+		1. Open the app.
+		2. Double click on the picture.
+		3. Move the sliders left and right adjust the brighness, contrast.
+	
+Actual result: Sliders of brighness and contrast are disabled.
+Expected result: Sliders are adjust the brighness and contrast.
+
+ 
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+ === main==open file bug_report.txt==go to file==edit==баг репорт==commit changes
+ 
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+ === git pull
+ 
